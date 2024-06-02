@@ -3,7 +3,7 @@ import {assets} from '../assets/assets.js'
 
 const Sidebar = () => {
   return (
-    <div className='w-[25%] h-full p-2 text-white flex-col gap-2 hidden lg:flex'>
+    <div className='w-[28%] h-full p-2 text-white flex-col gap-2 hidden lg:flex'>
         <div className='bg-[#121212] h-[20%] rounded flex flex-col justify-around'>
             {/* home + search */}
             <div className='flex items-center gap-4 pl-6 cursor-pointer'>     
@@ -29,9 +29,14 @@ const Sidebar = () => {
                 </div>
             </div>
             <div className='p-4 bg-[#242424] m-2 rounded font-semibold flex flex-col items-start justify-start gap-1 pl-6'>
-                <h1>Create your first playlist</h1>
-                <p className='font-normal'>It's easy, we'll help you</p>
+                <h1 className=''>Create your first playlist</h1>
+                <p className='font-normal text-[13px]'>It's easy, we'll help you</p>
                 <button className='text-semibold px-4 py-1.5 bg-white text-[15px] text-black rounded-full mt-4 hover:scale-[103%]'>Create playlist</button>
+            </div>
+            <div className='p-4 bg-[#242424] m-2 rounded font-semibold flex flex-col items-start justify-start gap-1 pl-6'>
+                <h1>Let's find some podcasts to follow</h1>
+                <p className='font-normal text-[13px]'>We'll keep you updated on new episodes</p>
+                <button className='text-semibold px-4 py-1.5 bg-white text-[15px] text-black rounded-full mt-4 hover:scale-[103%]'>Browse podcasts</button>
             </div>
 
         </div>
