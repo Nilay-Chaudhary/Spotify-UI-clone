@@ -120,7 +120,7 @@ export const songsData = [
         name: "Song One",
         image: img1,
         file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Enjoy free music",
         duration:"3:00"
     },
     {
@@ -128,7 +128,7 @@ export const songsData = [
         name: "Song Two",
         image: img2,
         file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Enjoy free music",
         duration:"2:20"
     },
     {
@@ -136,7 +136,7 @@ export const songsData = [
         name: "Song Three",
         image: img3,
         file:song3,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Enjoy free music",
         duration:"2:32"
     },
     {
@@ -144,7 +144,7 @@ export const songsData = [
         name: "Song Four",
         image: img4,
         file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Enjoy free music",
         duration:"2:50"
     },
     {
@@ -152,7 +152,7 @@ export const songsData = [
         name: "Song Five",
         image: img5,
         file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Enjoy free music",
         duration:"3:10"
     },
     {
@@ -160,7 +160,7 @@ export const songsData = [
         name: "Song Six",
         image: img14    ,
         file:song3,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Enjoy free music",
         duration:"2:45"
     },
     {
@@ -168,7 +168,7 @@ export const songsData = [
         name: "Song Seven",
         image: img7,
         file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Enjoy free music",
         duration:"2:18"
     },
     {
@@ -176,7 +176,7 @@ export const songsData = [
         name: "Song Eight",
         image: img12,
         file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Enjoy free music",
         duration:"2:35"
     },
     {
@@ -184,7 +184,7 @@ export const songsData = [
         name:"Song Nine",
         image: img6,
         file:song3,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Enjoy free music",
         duration:"2:34"
     },
     {
@@ -192,7 +192,7 @@ export const songsData = [
         name:"Song Ten",
         image: img13,
         file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Enjoy free music",
         duration:"3:01"
     }
 ]

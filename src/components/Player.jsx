@@ -4,20 +4,22 @@ import {assets, songsData as songs} from '../assets/assets'
 const Player = () => {
   return (
     <div className='h-[10%] bg-black flex justify-between items-center text-white px-4'>
+        {/* song details */}
         <div className='hidden lg:flex items-center gap-4'>
             <img className='w-12' src={songs[0].image} />
             <div>
                 <p>{songs[0].name}</p>
-                <p>{songs[0].desc.slice(0,12)}</p>
+                <p>{songs[0].desc}</p>
             </div>
         </div>
+        {/* playback menu */}
         <div className='flex flex-col pl-20 items-center gap-1 m-auto'>
             <div className='flex gap-4'>
-                <img className='w-4 cursor-pointer' src={assets.shuffle_icon} />
-                <img className='w-4 cursor-pointer' src={assets.prev_icon} />
-                <img className='w-4 cursor-pointer' src={assets.play_icon} />
-                <img className='w-4 cursor-pointer' src={assets.next_icon} />
-                <img className='w-4 cursor-pointer' src={assets.loop_icon} />
+                <img className='w-4 cursor-pointer hover:scale-105' src={assets.shuffle_icon} />
+                <img className='w-4 cursor-pointer hover:scale-105' src={assets.prev_icon} />
+                <img className='w-4 cursor-pointer hover:scale-105' src={assets.play_icon} />
+                <img className='w-4 cursor-pointer hover:scale-105' src={assets.next_icon} />
+                <img className='w-4 cursor-pointer hover:scale-105' src={assets.loop_icon} />
             </div>
             <div className='flex items-center gap-5'>
                 <p>1:05</p>
@@ -27,6 +29,7 @@ const Player = () => {
                 <p>3:12</p>
             </div>
         </div>
+        {/* dummy icons */}
         <div className='hidden lg:flex items-center gap-2 opacity-75'>
             <img className='w-4' src={assets.play_icon}/>
             <img className='w-4' src={assets.mic_icon}/>
