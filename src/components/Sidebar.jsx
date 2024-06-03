@@ -16,7 +16,7 @@ const Sidebar = () => {
             </div>
         </div>
 
-        <div className='h-[80%] bg-[#121212] rounded'>
+        <div className='h-[80%] bg-[#121212] rounded overflow-auto scrollbar-custom'>
             <div className='p-6 flex items-center justify-between cursor-pointer'>
                 {/* library */}
                 <div className='flex items-center gap-3'>

@@ -4,6 +4,7 @@ import { assets } from '../assets/assets'
 const Navbar = () => {
   return (
     <>
+        {/* top row */}
         <div className='w-full flex justify-between items-center font-semibold'>
             <div className='flex items-center gap-2'>
                 <img className='w-8 bg-black p-2 rounded-2xl cursor-pointer hover:scale-[110%]' src={assets.arrow_left} alt="" />
@@ -17,6 +18,7 @@ const Navbar = () => {
                 </p>
             </div>
         </div>
+        {/* bottom row */}
         <div className='flex items-center gap-2 mt-5'>
             <button className='bg-white text-black px-3 py-1 rounded-2xl text-[14px]'>All</button>
             <button className='bg-zinc-800 text-white px-3 py-1 rounded-2xl text-[14px] hover:bg-zinc-700 duration-150'>Music</button>

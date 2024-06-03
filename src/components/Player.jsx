@@ -6,7 +6,7 @@ const Player = () => {
     <div className='h-[10%] bg-black flex justify-between items-center text-white px-4'>
         {/* song details */}
         <div className='hidden lg:flex items-center gap-4'>
-            <img className='w-12' src={songs[0].image} />
+            <img className='w-12 rounded-lg' src={songs[0].image} />
             <div>
                 <p>{songs[0].name}</p>
                 <p>{songs[0].desc}</p>
