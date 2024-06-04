@@ -121,7 +121,8 @@ export const songsData = [
         image: img1,
         file:song1,
         desc:"Enjoy free music",
-        duration:"3:00"
+        duration:"3:00",
+        genre:"Music"
     },
     {
         id:1,
@@ -129,7 +130,8 @@ export const songsData = [
         image: img2,
         file:song2,
         desc:"Enjoy free music",
-        duration:"2:20"
+        duration:"2:20",
+        genre:"Podcasts"
     },
     {
         id:2,
@@ -137,7 +139,8 @@ export const songsData = [
         image: img3,
         file:song3,
         desc:"Enjoy free music",
-        duration:"2:32"
+        duration:"2:32",
+        genre:"Live Events"
     },
     {
         id:3,
@@ -145,7 +148,8 @@ export const songsData = [
         image: img4,
         file:song1,
         desc:"Enjoy free music",
-        duration:"2:50"
+        duration:"2:50",
+        genre:"Made For You"
     },
     {
         id:4,
@@ -153,7 +157,8 @@ export const songsData = [
         image: img5,
         file:song2,
         desc:"Enjoy free music",
-        duration:"3:10"
+        duration:"3:10",
+        genre:"New Releases"
     },
     {
         id:5,
@@ -161,7 +166,8 @@ export const songsData = [
         image: img14    ,
         file:song3,
         desc:"Enjoy free music",
-        duration:"2:45"
+        duration:"2:45",
+        genre:"Charts"
     },
     {
         id:6,
@@ -169,7 +175,8 @@ export const songsData = [
         image: img7,
         file:song1,
         desc:"Enjoy free music",
-        duration:"2:18"
+        duration:"2:18",
+        genre:"Pop"
     },
     {
         id:7,
@@ -177,7 +184,8 @@ export const songsData = [
         image: img12,
         file:song2,
         desc:"Enjoy free music",
-        duration:"2:35"
+        duration:"2:35",
+        genre:"Trending"
     },
     {
         id:8,
@@ -185,7 +193,8 @@ export const songsData = [
         image: img6,
         file:song3,
         desc:"Enjoy free music",
-        duration:"2:34"
+        duration:"2:34",
+        genre:"Hip-Hop"
     },
     {
         id:9,
@@ -193,6 +202,7 @@ export const songsData = [
         image: img13,
         file:song1,
         desc:"Enjoy free music",
-        duration:"3:01"
+        duration:"3:01",
+        genre:"K-Pop"
     }
 ]

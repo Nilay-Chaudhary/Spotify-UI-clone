@@ -3,6 +3,7 @@ import { Routes, Route, useLocation } from 'react-router-dom'
 import DisplayHome from './DisplayHome'
 import DisplayAlbum from './DisplayAlbum'
 import { albumsData } from '../assets/assets'
+import DisplaySearch from './DisplaySearch'
 
 const DisplayRouter = () => {
   const displayRef = useRef();
@@ -24,6 +25,7 @@ const DisplayRouter = () => {
     <div ref={displayRef} className='w--[100%] m-2 px-6 pt-4 rounded bg-[#121212] text-white overflow-auto lg:w-[75%] lg:ml-0 scrollbar-none'>
         <Routes>
             <Route path='/' element = {<DisplayHome />}> </Route>
+            <Route path='/search' element = {<DisplaySearch />}> </Route>
             <Route path='/album/:id' element = {<DisplayAlbum />}> </Route>
         </Routes>
     </div>
