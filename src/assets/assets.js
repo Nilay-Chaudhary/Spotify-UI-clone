@@ -38,9 +38,6 @@ import img13 from './img13.jpg'
 import img14 from './img14.jpg'
 import img15 from './img15.jpg'
 import img16 from './img16.jpg'
-import song1 from  './song1.mp3'
-import song2 from  './song2.mp3'
-import song3 from  './song3.mp3'
 
 export const assets = {
     bell_icon,
@@ -119,7 +116,6 @@ export const songsData = [
         id:0,
         name: "Song One",
         image: img1,
-        file:song1,
         desc:"Enjoy free music",
         duration:"3:00",
         genre:"Music"
@@ -128,7 +124,6 @@ export const songsData = [
         id:1,
         name: "Song Two",
         image: img2,
-        file:song2,
         desc:"Enjoy free music",
         duration:"2:20",
         genre:"Podcasts"
@@ -137,7 +132,6 @@ export const songsData = [
         id:2,
         name: "Song Three",
         image: img3,
-        file:song3,
         desc:"Enjoy free music",
         duration:"2:32",
         genre:"Live Events"
@@ -146,7 +140,6 @@ export const songsData = [
         id:3,
         name: "Song Four",
         image: img4,
-        file:song1,
         desc:"Enjoy free music",
         duration:"2:50",
         genre:"Made For You"
@@ -155,7 +148,6 @@ export const songsData = [
         id:4,
         name: "Song Five",
         image: img5,
-        file:song2,
         desc:"Enjoy free music",
         duration:"3:10",
         genre:"New Releases"
@@ -164,7 +156,6 @@ export const songsData = [
         id:5,
         name: "Song Six",
         image: img14    ,
-        file:song3,
         desc:"Enjoy free music",
         duration:"2:45",
         genre:"Charts"
@@ -173,7 +164,6 @@ export const songsData = [
         id:6,
         name: "Song Seven",
         image: img7,
-        file:song1,
         desc:"Enjoy free music",
         duration:"2:18",
         genre:"Pop"
@@ -182,7 +172,6 @@ export const songsData = [
         id:7,
         name: "Song Eight",
         image: img12,
-        file:song2,
         desc:"Enjoy free music",
         duration:"2:35",
         genre:"Trending"
@@ -191,7 +180,6 @@ export const songsData = [
         id:8,
         name:"Song Nine",
         image: img6,
-        file:song3,
         desc:"Enjoy free music",
         duration:"2:34",
         genre:"Hip-Hop"
@@ -200,7 +188,6 @@ export const songsData = [
         id:9,
         name:"Song Ten",
         image: img13,
-        file:song1,
         desc:"Enjoy free music",
         duration:"3:01",
         genre:"K-Pop"
